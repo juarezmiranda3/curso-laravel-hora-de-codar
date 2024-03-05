@@ -6,4 +6,8 @@
 
 <h1>Tela de produtos</h1>
 
+@if($busca != '')
+    <p>O uusário está buscando por: {{ $busca }}</p>
+@endif
+
 @endsection
